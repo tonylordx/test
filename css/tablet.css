@@ -1,0 +1,48 @@
+@media (max-width: 900px) {
+  section > .container {
+    width: 900px;
+    margin: auto;
+    padding: 10px 10px;
+  }
+  #job-info {
+    width: 800px;
+  }
+  .container-nav div:nth-of-type(2) a {
+    border-right: none;
+  }
+
+  /*  để dễ nhìn em có để màu h1 sang màu xanh khi chuyển tiếp qua size tablet  */
+  h1 {
+    margin: auto;
+    color: blue;
+  }
+  .nguyenvan-nav {
+    display: none;
+  }
+  .container-nav {
+    grid-template-columns: auto auto auto auto auto;
+  }
+  section#nav-bar {
+    padding: 20px;
+  }
+  #target.about {
+    padding: 30px;
+  }
+  .job-info {
+    grid-template-columns: 50% 50%;
+  }
+
+  .hobby-icon {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .hobby-icon > div {
+    margin: 0;
+  }
+  .certificate-child {
+    display: flex;
+  }
+  .project-icon-left {
+    flex-direction: column;
+  }
+}
